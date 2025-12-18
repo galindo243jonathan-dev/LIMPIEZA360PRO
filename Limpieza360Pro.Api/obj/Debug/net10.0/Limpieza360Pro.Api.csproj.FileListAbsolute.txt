@@ -216,3 +216,4 @@ C:\Users\alepu\OneDrive\Escritorio\LIMPIEZA360PRO\Limpieza360Pro.Api\obj\Debug\n
 C:\Users\alepu\OneDrive\Escritorio\LIMPIEZA360PRO\Limpieza360Pro.Api\obj\Debug\net10.0\Limpieza360Pro.Api.pdb
 C:\Users\alepu\OneDrive\Escritorio\LIMPIEZA360PRO\Limpieza360Pro.Api\obj\Debug\net10.0\Limpieza360Pro.Api.genruntimeconfig.cache
 C:\Users\alepu\OneDrive\Escritorio\LIMPIEZA360PRO\Limpieza360Pro.Api\obj\Debug\net10.0\ref\Limpieza360Pro.Api.dll
+C:\Users\alepu\OneDrive\Escritorio\LIMPIEZA360PRO\Limpieza360Pro.Api\obj\Debug\net10.0\Limpieza360Pro.Api.sourcelink.json
