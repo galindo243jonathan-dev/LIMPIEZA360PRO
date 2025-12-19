@@ -1,3 +1,8 @@
+// Blob Storage
+using Limpieza360Pro.Api.Services;
+// Registrar BlobStorageService
+builder.Services.AddSingleton<BlobStorageService>(sp =>
+    new BlobStorageService(builder.Configuration.GetConnectionString("AzureBlobStorage")));
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -42,6 +47,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add SignalR
+builder.Services.AddSignalR();
+
 
 // CORS
 builder.Services.AddCors(options =>
@@ -74,9 +82,14 @@ using (var scope = app.Services.CreateScope())
 }
 
 
+
 app.UseHttpsRedirection();
 app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+// Map SignalR hubs
+app.MapHub<Limpieza360Pro.Api.Hubs.NotificationsHub>("/hubs/notifications");
+
 app.Run();

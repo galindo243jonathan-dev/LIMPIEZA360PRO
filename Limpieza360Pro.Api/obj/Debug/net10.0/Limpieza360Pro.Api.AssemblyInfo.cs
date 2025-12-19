@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Limpieza360Pro.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4bbe4a7fe7ce5aa88d2b8e0c7247c81c07861ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b08eb0d50428b6c360e72eff547214c7a678f458")]
 [assembly: System.Reflection.AssemblyProductAttribute("Limpieza360Pro.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Limpieza360Pro.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
